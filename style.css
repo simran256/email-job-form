@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(4,4,4,1) 0%, rgba(89,89,89,1) 90% );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form-container{
+    /* border: 1px solid blueviolet; */
+    padding: 10px 50px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background: white;
+    width: 50%;
+}
+.form-container h4{
+    padding: 10px 20px;
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(4,4,4,1) 0%, rgba(89,89,89,1) 90% );
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.form-container form input,textarea,select{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    padding: 10px;
+}
+  
+
+
+input[type="file" i] {
+   height: 200px;
+}
+.upload-container {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 200px;
+    margin: 20px auto;
+    width: 98%;
+}
+
+.upload-label {
+    display: block; 
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+
+}
+.upload-label i{
+    font-size: 50px;
+}
+.upload-label span{
+    font-size: 13px;
+}
+.upload-input {
+    display: none; /* Hide the default file input */
+}
+
+.drop-area {
+    border: 2px dashed #007BFF; /* Dashed border */
+    border-radius: 4px;
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.drop-area.drag-over {
+    background-color: #e0f7ff; /* Change background color when dragging over */
+}
+
+
+@media (max-width:986px) {
+    .form-container{
+        width: 70%;
+    }
+    
+}
+@media (max-width:826px) {
+    .form-container{
+        width: 80%;
+    }
+    
+}
+@media (max-width:782px) {
+    .form-container{
+        width: 90%;
+    }
+    
+}
+@media (max-width:434px) {
+    .form-container{
+        padding: 10px 20px;
+    }
+    
+}

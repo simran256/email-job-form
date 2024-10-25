@@ -1,0 +1,17 @@
+fields ///
+
+id
+fname
+lname
+dob
+address
+zip
+city
+email
+mobile
+linkedin
+post
+experience
+resume
+cover_letter
+uploade_at
